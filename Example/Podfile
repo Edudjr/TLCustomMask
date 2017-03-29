@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TLCustomMask_Example' do
+  pod 'TLCustomMask', :path => '../'
+
+  target 'TLCustomMask_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
