@@ -31,17 +31,17 @@
 
 /* Begin PBXFileReference section */
 		0758B24A40ACE58EF6EC70B3505164FB /* Pods-TLCustomMask_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomMask_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		079ACFEE43EF6B60A748A2BFA6FDADFF /* Pods_TLCustomMask_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCustomMask_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		079ACFEE43EF6B60A748A2BFA6FDADFF /* Pods_TLCustomMask_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLCustomMask_Example.framework; path = "Pods-TLCustomMask_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B8BB615EEEC38D6B99768339B9662BD /* Pods-TLCustomMask_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLCustomMask_Example-resources.sh"; sourceTree = "<group>"; };
 		0BC13FC3FA4BCF609AFD51C3A4B97E35 /* Pods-TLCustomMask_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLCustomMask_Example-umbrella.h"; sourceTree = "<group>"; };
 		1202C86C34292BA15848DFB3089A4214 /* Pods-TLCustomMask_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomMask_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		15446E214047DEF31954111212A88008 /* TLCustomMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLCustomMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15446E214047DEF31954111212A88008 /* TLCustomMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLCustomMask.framework; path = TLCustomMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		176C18C58382E3EA21D503DFB72BED08 /* Pods-TLCustomMask_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLCustomMask_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BDF586C52323C2085AA99CAC73E3AD1 /* Pods-TLCustomMask_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLCustomMask_Example-dummy.m"; sourceTree = "<group>"; };
-		241303B9375A1A09CE88BF672107E1DA /* Pods_TLCustomMask_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCustomMask_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		241303B9375A1A09CE88BF672107E1DA /* Pods_TLCustomMask_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLCustomMask_Tests.framework; path = "Pods-TLCustomMask_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		271853052E2173AB2765444FD75B5242 /* Pods-TLCustomMask_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLCustomMask_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2985ED07E26D2D7712A2D7A249FFDC37 /* Pods-TLCustomMask_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLCustomMask_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2AC37325ECECE3118999FE20D5D54301 /* Pods-TLCustomMask_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TLCustomMask_Example.modulemap"; sourceTree = "<group>"; };
+		2AC37325ECECE3118999FE20D5D54301 /* Pods-TLCustomMask_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLCustomMask_Example.modulemap"; sourceTree = "<group>"; };
 		436074D0E2C6E00186E43126A9E3FD7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4741E1C39FCFD0DE91772D005DC227E6 /* TLCustomMask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLCustomMask.xcconfig; sourceTree = "<group>"; };
 		5E78A846C9D9A3A69BF8CCCF9DBC28AC /* TLCustomMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TLCustomMask.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		6E64807F09F471BE59C5D1318A70A233 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E85DEF5F9231B2BA50D0DFF65AD14FF /* Pods-TLCustomMask_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomMask_Example.release.xcconfig"; sourceTree = "<group>"; };
 		824AA1E00DD040F8C8F5CE723725EA8C /* Pods-TLCustomMask_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLCustomMask_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2D900EA9B995AF8D132DF76A906186D /* TLCustomMask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomMask-prefix.pch"; sourceTree = "<group>"; };
 		B6B036C88CD9793362750632F621C144 /* Pods-TLCustomMask_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomMask_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BB51DA67B5E51468E52912A6DD056249 /* Pods-TLCustomMask_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLCustomMask_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -58,9 +58,9 @@
 		C7DBC37FE1E5C62AC34EE6A07C83DA21 /* TLCustomMask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLCustomMask-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2130CCB6AEDAD6B4AD38142AAF43753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA8504960E1E7BFE335D64FE68718E7A /* Pods-TLCustomMask_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TLCustomMask_Tests.modulemap"; sourceTree = "<group>"; };
+		DA8504960E1E7BFE335D64FE68718E7A /* Pods-TLCustomMask_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLCustomMask_Tests.modulemap"; sourceTree = "<group>"; };
 		E33E250EC5A02F67E5FE4CD09DBBB6FE /* Pods-TLCustomMask_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomMask_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB82703910EF200A2F7567DCCF96C461 /* TLCustomMask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TLCustomMask.modulemap; sourceTree = "<group>"; };
+		EB82703910EF200A2F7567DCCF96C461 /* TLCustomMask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TLCustomMask.modulemap; sourceTree = "<group>"; };
 		EEA122384E23BFEC9DC529A7CF22D945 /* TLCustomMask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomMask-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +97,7 @@
 			children = (
 				97E72244648F49E0C565F9843090B8F6 /* Classes */,
 			);
+			name = TLCustomMask;
 			path = TLCustomMask;
 			sourceTree = "<group>";
 		};
@@ -151,6 +152,7 @@
 			children = (
 				5E78A846C9D9A3A69BF8CCCF9DBC28AC /* TLCustomMask.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
