@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04642902E5A3248B0C41D8A4DF8822C4 /* TLCustomMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E78A846C9D9A3A69BF8CCCF9DBC28AC /* TLCustomMask.swift */; };
+		2FA8DBBBBD18BFC696E52A7423C1C71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		869A0B3658F98C95C1811EDA999E670C /* Pods-TLCustomMask_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF586C52323C2085AA99CAC73E3AD1 /* Pods-TLCustomMask_Example-dummy.m */; };
+		95B1CE61AC6546199457CC2770B34C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A121B2FAB0FAC177000B091BA1D7EE68 /* Pods-TLCustomMask_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2985ED07E26D2D7712A2D7A249FFDC37 /* Pods-TLCustomMask_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8CA680071B24648D0992FB7052E18A4 /* TLCustomMask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA122384E23BFEC9DC529A7CF22D945 /* TLCustomMask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C88F8026E6B51A4665028546ABC3B452 /* TLCustomMask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DBC37FE1E5C62AC34EE6A07C83DA21 /* TLCustomMask-dummy.m */; };
+		D4BEB47233717B7C9095628E9BDE73E8 /* Pods-TLCustomMask_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51DA67B5E51468E52912A6DD056249 /* Pods-TLCustomMask_Tests-dummy.m */; };
+		E2DF6447BA60608E03F52670871B2855 /* Pods-TLCustomMask_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC13FC3FA4BCF609AFD51C3A4B97E35 /* Pods-TLCustomMask_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E59E0337673936CC19364B819ED81E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04269606CAAF90EC844B8265E9C6DBF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4CF48C3B93A416F8457DEF72E79F443;
+			remoteInfo = TLCustomMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0758B24A40ACE58EF6EC70B3505164FB /* Pods-TLCustomMask_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomMask_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		079ACFEE43EF6B60A748A2BFA6FDADFF /* Pods_TLCustomMask_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCustomMask_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8BB615EEEC38D6B99768339B9662BD /* Pods-TLCustomMask_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLCustomMask_Example-resources.sh"; sourceTree = "<group>"; };
+		0BC13FC3FA4BCF609AFD51C3A4B97E35 /* Pods-TLCustomMask_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLCustomMask_Example-umbrella.h"; sourceTree = "<group>"; };
+		1202C86C34292BA15848DFB3089A4214 /* Pods-TLCustomMask_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomMask_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		15446E214047DEF31954111212A88008 /* TLCustomMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLCustomMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		176C18C58382E3EA21D503DFB72BED08 /* Pods-TLCustomMask_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLCustomMask_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BDF586C52323C2085AA99CAC73E3AD1 /* Pods-TLCustomMask_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLCustomMask_Example-dummy.m"; sourceTree = "<group>"; };
+		241303B9375A1A09CE88BF672107E1DA /* Pods_TLCustomMask_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCustomMask_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271853052E2173AB2765444FD75B5242 /* Pods-TLCustomMask_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLCustomMask_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2985ED07E26D2D7712A2D7A249FFDC37 /* Pods-TLCustomMask_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLCustomMask_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2AC37325ECECE3118999FE20D5D54301 /* Pods-TLCustomMask_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TLCustomMask_Example.modulemap"; sourceTree = "<group>"; };
+		436074D0E2C6E00186E43126A9E3FD7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4741E1C39FCFD0DE91772D005DC227E6 /* TLCustomMask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLCustomMask.xcconfig; sourceTree = "<group>"; };
+		5E78A846C9D9A3A69BF8CCCF9DBC28AC /* TLCustomMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TLCustomMask.swift; sourceTree = "<group>"; };
+		624F95EC59D7A91C1E765553AF4F30B5 /* Pods-TLCustomMask_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLCustomMask_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6E64807F09F471BE59C5D1318A70A233 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E85DEF5F9231B2BA50D0DFF65AD14FF /* Pods-TLCustomMask_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomMask_Example.release.xcconfig"; sourceTree = "<group>"; };
+		824AA1E00DD040F8C8F5CE723725EA8C /* Pods-TLCustomMask_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLCustomMask_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2D900EA9B995AF8D132DF76A906186D /* TLCustomMask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomMask-prefix.pch"; sourceTree = "<group>"; };
+		B6B036C88CD9793362750632F621C144 /* Pods-TLCustomMask_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomMask_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB51DA67B5E51468E52912A6DD056249 /* Pods-TLCustomMask_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLCustomMask_Tests-dummy.m"; sourceTree = "<group>"; };
+		BD0147202BD75D46531796FEBAE73EE7 /* Pods-TLCustomMask_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLCustomMask_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BD09652E719F3F26A1F0FDC28245C142 /* Pods-TLCustomMask_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomMask_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C7DBC37FE1E5C62AC34EE6A07C83DA21 /* TLCustomMask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLCustomMask-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2130CCB6AEDAD6B4AD38142AAF43753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8504960E1E7BFE335D64FE68718E7A /* Pods-TLCustomMask_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TLCustomMask_Tests.modulemap"; sourceTree = "<group>"; };
+		E33E250EC5A02F67E5FE4CD09DBBB6FE /* Pods-TLCustomMask_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomMask_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB82703910EF200A2F7567DCCF96C461 /* TLCustomMask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TLCustomMask.modulemap; sourceTree = "<group>"; };
+		EEA122384E23BFEC9DC529A7CF22D945 /* TLCustomMask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomMask-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E093FDE53EAC1501FE30726094171D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B1CE61AC6546199457CC2770B34C5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492B555B885362568E79ADE5E5740BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59E0337673936CC19364B819ED81E21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4966EC8FE7FDEAA3E8326A53EFC548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8DBBBBD18BFC696E52A7423C1C71D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD6DA4B54C193F65E9B52F8F676FCF3 /* TLCustomMask */ = {
+			isa = PBXGroup;
+			children = (
+				97E72244648F49E0C565F9843090B8F6 /* Classes */,
+			);
+			path = TLCustomMask;
+			sourceTree = "<group>";
+		};
+		4D01275AC0458D6EFAABEAA7112255E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7323B03410A55A86B4984EF42E7E62C /* Pods-TLCustomMask_Example */,
+				A4FB1590A948A4E1859425A6FBA977FA /* Pods-TLCustomMask_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CBF48ECF2BF56474AE9D277CB95E2E3 /* TLCustomMask */ = {
+			isa = PBXGroup;
+			children = (
+				9E783E40DA504A89FCEEA4236A1AEF04 /* Support Files */,
+				1FD6DA4B54C193F65E9B52F8F676FCF3 /* TLCustomMask */,
+			);
+			name = TLCustomMask;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6D07929A6977E6384F46B32AFB595742 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CBF48ECF2BF56474AE9D277CB95E2E3 /* TLCustomMask */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6D07929A6977E6384F46B32AFB595742 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EF92B9E150B15D21EBD85B64051C20E4 /* Products */,
+				4D01275AC0458D6EFAABEAA7112255E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97E72244648F49E0C565F9843090B8F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E78A846C9D9A3A69BF8CCCF9DBC28AC /* TLCustomMask.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E783E40DA504A89FCEEA4236A1AEF04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E64807F09F471BE59C5D1318A70A233 /* Info.plist */,
+				EB82703910EF200A2F7567DCCF96C461 /* TLCustomMask.modulemap */,
+				4741E1C39FCFD0DE91772D005DC227E6 /* TLCustomMask.xcconfig */,
+				C7DBC37FE1E5C62AC34EE6A07C83DA21 /* TLCustomMask-dummy.m */,
+				B2D900EA9B995AF8D132DF76A906186D /* TLCustomMask-prefix.pch */,
+				EEA122384E23BFEC9DC529A7CF22D945 /* TLCustomMask-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLCustomMask";
+			sourceTree = "<group>";
+		};
+		A4FB1590A948A4E1859425A6FBA977FA /* Pods-TLCustomMask_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				436074D0E2C6E00186E43126A9E3FD7C /* Info.plist */,
+				DA8504960E1E7BFE335D64FE68718E7A /* Pods-TLCustomMask_Tests.modulemap */,
+				176C18C58382E3EA21D503DFB72BED08 /* Pods-TLCustomMask_Tests-acknowledgements.markdown */,
+				E33E250EC5A02F67E5FE4CD09DBBB6FE /* Pods-TLCustomMask_Tests-acknowledgements.plist */,
+				BB51DA67B5E51468E52912A6DD056249 /* Pods-TLCustomMask_Tests-dummy.m */,
+				624F95EC59D7A91C1E765553AF4F30B5 /* Pods-TLCustomMask_Tests-frameworks.sh */,
+				824AA1E00DD040F8C8F5CE723725EA8C /* Pods-TLCustomMask_Tests-resources.sh */,
+				2985ED07E26D2D7712A2D7A249FFDC37 /* Pods-TLCustomMask_Tests-umbrella.h */,
+				0758B24A40ACE58EF6EC70B3505164FB /* Pods-TLCustomMask_Tests.debug.xcconfig */,
+				B6B036C88CD9793362750632F621C144 /* Pods-TLCustomMask_Tests.release.xcconfig */,
+			);
+			name = "Pods-TLCustomMask_Tests";
+			path = "Target Support Files/Pods-TLCustomMask_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7323B03410A55A86B4984EF42E7E62C /* Pods-TLCustomMask_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D2130CCB6AEDAD6B4AD38142AAF43753 /* Info.plist */,
+				2AC37325ECECE3118999FE20D5D54301 /* Pods-TLCustomMask_Example.modulemap */,
+				271853052E2173AB2765444FD75B5242 /* Pods-TLCustomMask_Example-acknowledgements.markdown */,
+				1202C86C34292BA15848DFB3089A4214 /* Pods-TLCustomMask_Example-acknowledgements.plist */,
+				1BDF586C52323C2085AA99CAC73E3AD1 /* Pods-TLCustomMask_Example-dummy.m */,
+				BD0147202BD75D46531796FEBAE73EE7 /* Pods-TLCustomMask_Example-frameworks.sh */,
+				0B8BB615EEEC38D6B99768339B9662BD /* Pods-TLCustomMask_Example-resources.sh */,
+				0BC13FC3FA4BCF609AFD51C3A4B97E35 /* Pods-TLCustomMask_Example-umbrella.h */,
+				BD09652E719F3F26A1F0FDC28245C142 /* Pods-TLCustomMask_Example.debug.xcconfig */,
+				7E85DEF5F9231B2BA50D0DFF65AD14FF /* Pods-TLCustomMask_Example.release.xcconfig */,
+			);
+			name = "Pods-TLCustomMask_Example";
+			path = "Target Support Files/Pods-TLCustomMask_Example";
+			sourceTree = "<group>";
+		};
+		EF92B9E150B15D21EBD85B64051C20E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079ACFEE43EF6B60A748A2BFA6FDADFF /* Pods_TLCustomMask_Example.framework */,
+				241303B9375A1A09CE88BF672107E1DA /* Pods_TLCustomMask_Tests.framework */,
+				15446E214047DEF31954111212A88008 /* TLCustomMask.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C3095C38DD503D637B813F0AA754C44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DF6447BA60608E03F52670871B2855 /* Pods-TLCustomMask_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A6921DDEE990049035839AE8A76419 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CA680071B24648D0992FB7052E18A4 /* TLCustomMask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E9B8B401CE701D5EECC819BD59C1987 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A121B2FAB0FAC177000B091BA1D7EE68 /* Pods-TLCustomMask_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B869B061801FBAF1CB7A1A7996D670D /* Pods-TLCustomMask_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4000FAD822C1A1F57A31B405C2C707C /* Build configuration list for PBXNativeTarget "Pods-TLCustomMask_Tests" */;
+			buildPhases = (
+				329128AA8B0908D9B0E2B9AE06D0A55A /* Sources */,
+				48E093FDE53EAC1501FE30726094171D /* Frameworks */,
+				9E9B8B401CE701D5EECC819BD59C1987 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TLCustomMask_Tests";
+			productName = "Pods-TLCustomMask_Tests";
+			productReference = 241303B9375A1A09CE88BF672107E1DA /* Pods_TLCustomMask_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4CF48C3B93A416F8457DEF72E79F443 /* TLCustomMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEB3469FAD96B565BAC2DB6E1E6F558 /* Build configuration list for PBXNativeTarget "TLCustomMask" */;
+			buildPhases = (
+				87BC9C7550892AD97A6C21CF7A4D66C4 /* Sources */,
+				DE4966EC8FE7FDEAA3E8326A53EFC548 /* Frameworks */,
+				11A6921DDEE990049035839AE8A76419 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLCustomMask;
+			productName = TLCustomMask;
+			productReference = 15446E214047DEF31954111212A88008 /* TLCustomMask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF6A86A465F493704529EA927B25C9CC /* Pods-TLCustomMask_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AC3567D2B6D4E212AEF8C77633DBDD /* Build configuration list for PBXNativeTarget "Pods-TLCustomMask_Example" */;
+			buildPhases = (
+				1F97BCD8B0B2348127E5CEB472067156 /* Sources */,
+				492B555B885362568E79ADE5E5740BAB /* Frameworks */,
+				0C3095C38DD503D637B813F0AA754C44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5433E526F08CB382BDD7A4B2E194FF /* PBXTargetDependency */,
+			);
+			name = "Pods-TLCustomMask_Example";
+			productName = "Pods-TLCustomMask_Example";
+			productReference = 079ACFEE43EF6B60A748A2BFA6FDADFF /* Pods_TLCustomMask_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EF92B9E150B15D21EBD85B64051C20E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6A86A465F493704529EA927B25C9CC /* Pods-TLCustomMask_Example */,
+				0B869B061801FBAF1CB7A1A7996D670D /* Pods-TLCustomMask_Tests */,
+				D4CF48C3B93A416F8457DEF72E79F443 /* TLCustomMask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F97BCD8B0B2348127E5CEB472067156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869A0B3658F98C95C1811EDA999E670C /* Pods-TLCustomMask_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329128AA8B0908D9B0E2B9AE06D0A55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BEB47233717B7C9095628E9BDE73E8 /* Pods-TLCustomMask_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BC9C7550892AD97A6C21CF7A4D66C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88F8026E6B51A4665028546ABC3B452 /* TLCustomMask-dummy.m in Sources */,
+				04642902E5A3248B0C41D8A4DF8822C4 /* TLCustomMask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5433E526F08CB382BDD7A4B2E194FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLCustomMask;
+			target = D4CF48C3B93A416F8457DEF72E79F443 /* TLCustomMask */;
+			targetProxy = 04269606CAAF90EC844B8265E9C6DBF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15BB2072481AE929BB5AC72318F7BDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E85DEF5F9231B2BA50D0DFF65AD14FF /* Pods-TLCustomMask_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomMask_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomMask_Example/Pods-TLCustomMask_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TLCustomMask_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3813D362971A87B66E8AB08457504380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4741E1C39FCFD0DE91772D005DC227E6 /* TLCustomMask.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLCustomMask/TLCustomMask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLCustomMask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLCustomMask/TLCustomMask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TLCustomMask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5499B08713FE2FDC2C704D46D16F5B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD09652E719F3F26A1F0FDC28245C142 /* Pods-TLCustomMask_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomMask_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomMask_Example/Pods-TLCustomMask_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TLCustomMask_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7414A33C5DAE2E50949C256C38DE20BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B036C88CD9793362750632F621C144 /* Pods-TLCustomMask_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomMask_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomMask_Tests/Pods-TLCustomMask_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TLCustomMask_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74F72DBFFEDF12A773404DE3AE27A65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4741E1C39FCFD0DE91772D005DC227E6 /* TLCustomMask.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLCustomMask/TLCustomMask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLCustomMask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLCustomMask/TLCustomMask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TLCustomMask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECD8F8B1FB14AEA118FFCF33A61F9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0758B24A40ACE58EF6EC70B3505164FB /* Pods-TLCustomMask_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomMask_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomMask_Tests/Pods-TLCustomMask_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TLCustomMask_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BEB3469FAD96B565BAC2DB6E1E6F558 /* Build configuration list for PBXNativeTarget "TLCustomMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F72DBFFEDF12A773404DE3AE27A65A /* Debug */,
+				3813D362971A87B66E8AB08457504380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AC3567D2B6D4E212AEF8C77633DBDD /* Build configuration list for PBXNativeTarget "Pods-TLCustomMask_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5499B08713FE2FDC2C704D46D16F5B86 /* Debug */,
+				15BB2072481AE929BB5AC72318F7BDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4000FAD822C1A1F57A31B405C2C707C /* Build configuration list for PBXNativeTarget "Pods-TLCustomMask_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECD8F8B1FB14AEA118FFCF33A61F9BE /* Debug */,
+				7414A33C5DAE2E50949C256C38DE20BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

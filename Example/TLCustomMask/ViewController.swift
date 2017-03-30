@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import TLCustomMask
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let customMask = TLCustomMask(formattingPattern: "$$$-$$")
+        print(customMask.formatString(string: "123456"))
+        
+        customMask.formattingPattern = "****/$$$"
+        print(customMask.formatString(string: "abcdef12345"))
+        print(customMask.cleanText)
     }
 
     override func didReceiveMemoryWarning() {

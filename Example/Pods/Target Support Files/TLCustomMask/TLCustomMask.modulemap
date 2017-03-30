@@ -1,0 +1,6 @@
+framework module TLCustomMask {
+  umbrella header "TLCustomMask-umbrella.h"
+
+  export *
+  module * { export * }
+}

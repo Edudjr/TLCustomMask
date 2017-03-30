@@ -1,0 +1,16 @@
+PODS:
+  - TLCustomMask (0.1.0)
+
+DEPENDENCIES:
+  - TLCustomMask (from `../`)
+
+EXTERNAL SOURCES:
+  TLCustomMask:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TLCustomMask: c69836d13a1447ba5c6f3292cbb96f7ab0f27930
+
+PODFILE CHECKSUM: bd79223680d970dbf18b3c81f68e06a82c017275
+
+COCOAPODS: 1.1.1
