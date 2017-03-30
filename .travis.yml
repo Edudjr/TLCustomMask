@@ -6,7 +6,7 @@ osx_image: xcode8.1
 language: objective-c
 xcode_project: _Pods.xcodeproj
 xcode_scheme: TLCustomMask_Tests
-xcode_sdk: iphonesimulator9.3
+xcode_sdk: iphonesimulator10.1
 
 # cache: cocoapods
 # podfile: Example/Podfile
