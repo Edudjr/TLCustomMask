@@ -40,7 +40,7 @@ public class TLCustomMask {
         }
     }
     
-    public init(formattingPattern : String = "***-**-****"){
+    public init(formattingPattern : String = ""){
         self._formattingPattern = formattingPattern;
         self.finalText = self._formattingPattern
     }
@@ -52,6 +52,11 @@ public class TLCustomMask {
      * and one for the string e.g: ["1","a","2"]
      */
     public func formatString(string: String) -> String{
+        // if there is no pattern, return string
+        if self._formattingPattern.isEmpty{
+            return string
+        }
+        
         //Transform into arrays
         let patternArray = Array(_formattingPattern.characters)
         let stringArray = Array(alfanumericOnly(string: string).characters)
@@ -93,6 +98,7 @@ public class TLCustomMask {
         //Add pattern to finalText and return string without pattern
         let textResult = String(finalTextArray)
         self.finalText = addPatternToString(string: textResult)
+        
         return textResult
     }
     
@@ -143,6 +149,11 @@ public class TLCustomMask {
         let ft = self.finalText!
         var replaceRange : Range<String.Index>? = nil
         var originalCharFromPattern : String? = nil
+        
+        //return empty if finalText is null
+        if ft.isEmpty{
+            return ""
+        }
         
         //if match found
         if (matches.count > 0){
