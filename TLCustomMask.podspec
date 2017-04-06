@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TLCustomMask'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'TLCustomMask takes a string and applies a custom mask to it.'
 
 # This description is used to generate tags and improve search results.
@@ -20,6 +20,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TLCustomMask takes a string and applies a custom mask to it.
 Ideally it is used from within a TextField to apply real-time masks to text inputs.
+Usage:
+func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+    self.text = customMask!.formatStringWithRange(range, string: string)
+    return false
+}
                        DESC
 
   s.homepage         = 'https://github.com/Edudjr/TLCustomMask'
