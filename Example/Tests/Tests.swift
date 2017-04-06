@@ -5,12 +5,16 @@ import TLCustomMask
 class Tests: XCTestCase {
     var customMask : TLCustomMask?
     var customMask2 : TLCustomMask?
+    var customMaskEmpty : TLCustomMask?
+    var customMaskEmpty2 : TLCustomMask?
     
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
         customMask = TLCustomMask(formattingPattern: "$$$-$$")
         customMask2 = TLCustomMask(formattingPattern: "***-**")
+        customMaskEmpty = TLCustomMask(formattingPattern: "")
+        customMaskEmpty2 = TLCustomMask()
     }
     
     override func tearDown() {
@@ -89,6 +93,21 @@ class Tests: XCTestCase {
         XCTAssertTrue(string == "")
         
         string = (customMask2?.formatString(string: ""))!
+        XCTAssertTrue(string == "")
+    }
+    
+    func testEmptyMask(){
+        var string : String
+        string = (customMaskEmpty?.formatString(string: "123456"))!
+        XCTAssertTrue(string == "123456")
+        
+        string = (customMaskEmpty?.formatString(string: ""))!
+        XCTAssertTrue(string == "")
+        
+        string = (customMaskEmpty2?.formatString(string: "123456"))!
+        XCTAssertTrue(string == "123456")
+        
+        string = (customMaskEmpty2?.formatString(string: ""))!
         XCTAssertTrue(string == "")
     }
     
