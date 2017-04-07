@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TLCustomMask'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'TLCustomMask takes a string and applies a custom mask to it.'
 
 # This description is used to generate tags and improve search results.

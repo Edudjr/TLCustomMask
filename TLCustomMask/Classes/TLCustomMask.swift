@@ -196,7 +196,11 @@ public class TLCustomMask {
      */
     private func addPatternToString(string : String) -> String{
         if let range = string.range(of: string){
-            let result = self.formattingPattern.replacingCharacters(in: range, with: string)
+            var result = ""
+            //If range exists in self.formattingPattern
+            if range.upperBound <= self.formattingPattern.endIndex {
+                result = self.formattingPattern.replacingCharacters(in: range, with: string)
+            }
             return result
         }
         return self._formattingPattern

@@ -22,6 +22,17 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
+    func testNewEmptyPattern(){
+        var string : String
+        
+        customMask?.formattingPattern = "$$$.$$$"
+        customMask?.formatString(string: "123456")
+        
+        customMask?.formattingPattern = ""
+        string = (customMask?.formatString(string: "abcdefg"))!
+        XCTAssertTrue(string == "abcdefg")
+    }
+    
     func testNoMatches(){
         var string : String
         string = (customMask?.formatString(string: "abcdefg"))!
@@ -120,11 +131,10 @@ class Tests: XCTestCase {
         XCTAssertTrue(string == "aaa-aa")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testNewString() {
+        var string : String
+        string = (customMask?.formatString(string: "1111111"))!
+        XCTAssertTrue(string == "111-11")
     }
     
 }
