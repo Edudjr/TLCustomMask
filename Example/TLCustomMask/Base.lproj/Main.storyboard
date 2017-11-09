@@ -1,25 +1,92 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TLCustomMask_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1cd-iL-5pP">
+                                <rect key="frame" x="66" y="119" width="243" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number only mask ($$.$$/$$-$)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-il-FJJ">
+                                <rect key="frame" x="61.5" y="90" width="252" height="21"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="chl-QN-jar">
+                                <rect key="frame" x="66" y="203" width="243" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Characters only mask (**.**/**-*)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMM-nM-haZ">
+                                <rect key="frame" x="64" y="174" width="247.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ncb-FA-wNl">
+                                <rect key="frame" x="66" y="287" width="243" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mixed mask ($$.**/$*-*)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ys-bm-jjq">
+                                <rect key="frame" x="95.5" y="258" width="184.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="1cd-iL-5pP" secondAttribute="trailing" constant="50" id="33r-yv-23g"/>
+                            <constraint firstItem="0ys-bm-jjq" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="8DD-Ob-IYN"/>
+                            <constraint firstItem="chl-QN-jar" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="9V3-oQ-0Jn"/>
+                            <constraint firstItem="ncb-FA-wNl" firstAttribute="top" secondItem="0ys-bm-jjq" secondAttribute="bottom" constant="8" id="HW6-xy-eOh"/>
+                            <constraint firstItem="ncb-FA-wNl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="NgO-wW-mUq"/>
+                            <constraint firstItem="1cd-iL-5pP" firstAttribute="top" secondItem="CeO-il-FJJ" secondAttribute="bottom" constant="8" id="Slw-kK-Zcm"/>
+                            <constraint firstItem="CeO-il-FJJ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="TNV-2j-5VQ"/>
+                            <constraint firstItem="0ys-bm-jjq" firstAttribute="top" secondItem="chl-QN-jar" secondAttribute="bottom" constant="25" id="Z3P-ye-DXb"/>
+                            <constraint firstItem="fMM-nM-haZ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="bh3-03-owS"/>
+                            <constraint firstItem="fMM-nM-haZ" firstAttribute="top" secondItem="1cd-iL-5pP" secondAttribute="bottom" constant="25" id="clS-u5-HAp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="chl-QN-jar" secondAttribute="trailing" constant="50" id="dYU-ci-8WD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ncb-FA-wNl" secondAttribute="trailing" constant="50" id="dZZ-Oe-zSB"/>
+                            <constraint firstItem="1cd-iL-5pP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="nHS-Cf-vQO"/>
+                            <constraint firstItem="chl-QN-jar" firstAttribute="top" secondItem="fMM-nM-haZ" secondAttribute="bottom" constant="8" id="qHm-Lr-IrK"/>
+                            <constraint firstItem="CeO-il-FJJ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="70" id="zLK-da-qS6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="characterOnlyTextField" destination="chl-QN-jar" id="CI6-kG-CXl"/>
+                        <outlet property="mixedTextField" destination="ncb-FA-wNl" id="41o-u9-ogp"/>
+                        <outlet property="numberOnlyTextField" destination="1cd-iL-5pP" id="dI2-Bv-pC7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-103.2" y="70.614692653673174"/>
         </scene>
     </scenes>
 </document>

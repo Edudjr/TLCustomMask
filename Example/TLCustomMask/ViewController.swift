@@ -10,17 +10,25 @@ import UIKit
 import TLCustomMask
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var numberOnlyTextField: UITextField!
+    @IBOutlet weak var characterOnlyTextField: UITextField!
+    @IBOutlet weak var mixedTextField: UITextField!
+    var numericMask = TLCustomMask()
+    var charactersMask = TLCustomMask()
+    var mixedMask = TLCustomMask()
+    /* Alternatively:
+     * var customMask = TLCustomMask(formattingPattern: "$$$-$$")
+     */
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        numberOnlyTextField.delegate = self
+        characterOnlyTextField.delegate = self
+        mixedTextField.delegate = self
         
-        let customMask = TLCustomMask(formattingPattern: "$$$-$$")
-        print(customMask.formatString(string: "123456"))
-        
-        customMask.formattingPattern = "****/$$$"
-        print(customMask.formatString(string: "abcdef12345"))
-        print(customMask.cleanText)
+        numericMask.formattingPattern = "$$.$$/$$-$"
+        charactersMask.formattingPattern = "**.**/**-*"
+        mixedMask.formattingPattern = "$$.**/$*-*"
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,5 +36,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+extension ViewController: UITextFieldDelegate{
+    func textField(_ textField: UITextField,
+                   shouldChangeCharactersIn range: NSRange,
+                   replacementString string: String) -> Bool {
+        
+        if(textField == numberOnlyTextField){
+            numberOnlyTextField.text = numericMask.formatStringWithRange(range: range, string: string)
+        }else if(textField == characterOnlyTextField){
+            characterOnlyTextField.text = charactersMask.formatStringWithRange(range: range, string: string)
+        }else if(textField == mixedTextField){
+            mixedTextField.text = mixedMask.formatStringWithRange(range: range, string: string)
+        }
+        
+        return false
+    }
 }
 
