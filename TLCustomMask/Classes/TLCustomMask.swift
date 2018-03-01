@@ -164,7 +164,7 @@ public class TLCustomMask {
             //there is no match, consequently, formatting pattern is full: "123-66-1234" OR empty: "($$) $$$$-$$$$"
         else{
             //get last char from formatting pattern
-            replaceRange = ft.range(of: ft[ft.index(before: ft.endIndex) ... ft.endIndex], options: .backwards)
+            replaceRange = ft.range(of: ft[ft.index(before: ft.endIndex) ..< ft.endIndex], options: .backwards)
             originalCharFromPattern = String(self._formattingPattern[replaceRange!])
         }
         
