@@ -58,9 +58,9 @@ public class TLCustomMask {
         }
         
         //Transform into arrays
-        let patternArray = Array(_formattingPattern.characters)
-        let stringArray = Array(alfanumericOnly(string: string).characters)
-        var finalTextArray = Array<Character>()
+        let patternArray = formattingPattern.map({$0})
+        let stringArray = alfanumericOnly(string: string).map({$0})
+        var finalTextArray: [Character] = []
         var patternArrayIndex = 0
         var stringArrayIndex = 0
         
@@ -119,7 +119,7 @@ public class TLCustomMask {
         }else{
             //Find index of first special character ($ or *)
             if let range = self.finalText!.range(of: "\\*|\\$", options: .regularExpression){
-                let char = self.finalText?.substring(with: range)
+                let char = self.finalText?[range]
                 if(char == "$"){
                     if let _ = Int(string){
                         self.finalText = self.finalText?.replacingCharacters(in: range, with: string)
@@ -159,13 +159,13 @@ public class TLCustomMask {
         if (matches.count > 0){
             let matchReplacementChar = matches.last
             replaceRange = self.finalText!.range(of: matchReplacementChar!, options: .backwards)
-            originalCharFromPattern = self._formattingPattern[replaceRange!.lowerBound...replaceRange!.lowerBound]
+            originalCharFromPattern = String(self._formattingPattern[replaceRange!.lowerBound...replaceRange!.lowerBound])
         }
             //there is no match, consequently, formatting pattern is full: "123-66-1234" OR empty: "($$) $$$$-$$$$"
         else{
             //get last char from formatting pattern
-            replaceRange = ft.range(of: ft.substring(from: ft.index(before: ft.endIndex)), options: .backwards)
-            originalCharFromPattern = self._formattingPattern[replaceRange!]
+            replaceRange = ft.range(of: ft[ft.index(before: ft.endIndex) ... ft.endIndex], options: .backwards)
+            originalCharFromPattern = String(self._formattingPattern[replaceRange!])
         }
         
         //Insert the pattern char back to the final string and return
@@ -242,7 +242,7 @@ extension String {
     func stringByRemovingRegexMatches(pattern: String, replaceWith: String = "") -> String {
         do {
             let regex = try NSRegularExpression(pattern: pattern, options: NSRegularExpression.Options.caseInsensitive)
-            let range = NSMakeRange(0, self.characters.count)
+            let range = NSMakeRange(0, self.count)
             return regex.stringByReplacingMatches(in: self, options: [], range: range, withTemplate: replaceWith)
         } catch {
             return self
