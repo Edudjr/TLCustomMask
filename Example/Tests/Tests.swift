@@ -26,7 +26,7 @@ class Tests: XCTestCase {
         var string : String
         
         customMask?.formattingPattern = "$$$.$$$"
-        customMask?.formatString(string: "123456")
+        let _ = customMask?.formatString(string: "123456")
         
         customMask?.formattingPattern = ""
         string = (customMask?.formatString(string: "abcdefg"))!

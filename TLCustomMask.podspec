@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TLCustomMask'
-  s.version          = '1.1.0'
+  s.version          = '2.0.0'
   s.summary          = 'TLCustomMask takes a string and applies a custom mask to it.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRa
   s.source           = { :git => 'https://github.com/Edudjr/TLCustomMask.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.3'
 
   s.source_files = 'TLCustomMask/Classes/**/*'
 
