@@ -11,15 +11,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Numeric mask example:
 
-![image](https://s19.postimg.org/8uhiyin6b/numeric_Mask.gif)
+![image](https://s19.postimg.cc/8uhiyin6b/numeric_Mask.gif)
 
 Characters mask example:
 
-![image](https://s19.postimg.org/z2snnvzk3/characters_Mask.gif)
+![image](https://s19.postimg.cc/z2snnvzk3/characters_Mask.gif)
 
 Mixed mask example:
 
-![image](https://s19.postimg.org/kjlimgypf/mixed_Mask.gif)
+![image](https://s19.postimg.cc/kjlimgypf/mixed_Mask.gif)
 
 ## How to Use
 **CustomMask** takes a string and returns it with the matching pattern.
