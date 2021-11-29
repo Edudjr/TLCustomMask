@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/TLCustomMask.svg?style=flat)](http://cocoapods.org/pods/TLCustomMask)
 [![Platform](https://img.shields.io/cocoapods/p/TLCustomMask.svg?style=flat)](http://cocoapods.org/pods/TLCustomMask)
 
+**This component is not supported anymore. Instead, use the [MaskedUITextField](https://github.com/Columbina/MaskedUITextField) as it is newer and allows creating much more flexible masks. If you just need the mask formatter decoupled from UIKit, check [MaskedFormatter](https://github.com/Columbina/MaskedFormatter).**
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
